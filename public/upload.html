@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload</title>
+</head>
+
+<body>
+    <form ref='uploadForm' id='uploadForm' action='/upload/user/5f40998b1eadb23e70ed239a' method='POST'
+        encType="multipart/form-data">
+        <h2>subir imagen de user</h2>
+        <input type="file" name="archivo" />
+        <input type='submit' value='Subir!' />
+    </form>
+
+    <form ref='uploadForm' id='uploadForm' action='/upload/product/id' method='POST' encType="multipart/form-data">
+        <br>
+        <h2>subir imagen de producto</h2>
+        <input type="file" name="archivo" />
+        <input type='submit' value='Subir!' />
+    </form>
+</body>
+
+</html>
